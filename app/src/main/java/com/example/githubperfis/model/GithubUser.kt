@@ -1,5 +1,6 @@
 package com.example.githubperfis.model // Pacote do modelo
 
+// Conjunto de dados -> 'GithubUser()'
 data class GithubUser ( // Classe de dados do usuário no Github
     val login: String, // Nome de usuário
     val name: String?, // Nome real do usuário -> pode ser nulo?
